@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/* .producto img, figure {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(163, 163, 163);
+} */
+
+
+h1{
+color: rgb(65, 23, 23);
+text-align: center;
+padding: 100px;
+}
+
+.banner-pasteles{
+    background-image: url(../img/banner-pastel.jpg);
+    width: 100%;
+    height: 20%;
+    padding: 30px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+
+.navbarice {
+    /* background-image: linear-gradient(to bottom, rgba(213, 255, 151, 0.883)), hotpink; */
+    background-color: rgb(253, 209, 231);
+    height: 100%;
+    min-height: 3rem;
+    /*18px x 3rem = 54px*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    margin: 0 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(65, 23, 23);
+}
+#container {
+    margin: 0 30px;
+}
+
+#navbar li a:hover{
+    background-color: rgb(65, 23, 23);
+    color: white;
+    padding: 10px 20px;
+}
+
+#navbar ul {
+    margin: 0;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+#navbar li{
+    /* margin-left: 1rem; */
+    list-style: none;
+    float: left;
+}
+
+.producto{
+    /* width: 10rem; */
+    height: 10rem;
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 50px;
+}
+
+
+
+
+.text-promo {
+    padding: 10px 20px;
+    background-color: rgb(65, 23, 23);
+    color: pink;
+    margin: 10px 0;
+    text-align: center;
+    }
+    
+    .price-pd{
+        padding: 10px;
+        text-align: center;
+        background-color: pink;
+        width: 50%;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .detalle-pd{
+        width: 200px;
+        font-size: 15px;
+    }
+
+.producto img figure{
+    
+    width: 100%;
+    height: 100%;
+    margin: 0 0 50px 0;
+}
+
+.figcaption{
+    text-align: center;
+} 
+figure {
+    margin: 20px;
+    }
+    
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.modal-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(199, 199, 199, 0.479);
+    visibility: hidden;
+}
+
+
+.producto img:hover {
+    opacity: 1.6;
+} 
+
+
+.modal-content{
+    position: relative;
+    max-width: 70%;
+    min-width: 15rem;
+    padding: 1.5rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: white;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-links li a {
+    display: block;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .toggle-button{
+        display: flex;
+    }
+    
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links ul li {
+        text-align: center;
+    }
+    
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+    
+    .navbar-links.active{
+        display: flex;
+    }
+    
+    .logo {
+        margin: .9rem;
+    }
+    
+    }

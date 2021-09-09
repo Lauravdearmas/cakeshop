@@ -1,0 +1,448 @@
+.banner-uno {
+    /*background-image: url(../img/banner-helado.jpg);
+    */background-color: rgb(229, 252, 195);
+    margin: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid  rgb(229, 252, 195);
+    width: 30%;
+    height: 200px;
+}
+.banner-uno:hover {
+    /* background-image: url(../img/banner-helado.jpg); */
+    background-color: pink;
+    border: 2px solid  rgb(65, 23, 23);
+}
+
+.imgcentral-uno {
+    background-image: url(../img/heladoenlace.jpg);
+    margin: 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid  pink;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.imgcentral-dos {
+    background-image: url(../img/pastelenlace.jpg);
+    margin: 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid  pink;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.imgcentral-tres {
+    background-image: url(../img/domienlace.jpg);
+    margin: 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid  pink;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+.banner-dos:hover {
+    /* background-image: url(../img/banner-helado.jpg); */
+    background-color: pink; 
+    border: 2px solid  rgb(65, 23, 23);
+}
+
+.icon-link{
+    font-size: 44px;
+    margin: 10px;
+    color: rgb(65, 23, 23);
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-link .link-text{
+    text-decoration: none;
+    color: rgb(65, 23, 23);
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.icon {
+    font-size: 24px;
+    color: pink;
+}
+
+.banner-tres {
+    /*background-image: url(../img/banner-helado.jpg);
+    */background-color: rgb(223, 213, 252);
+    margin: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid  rgb(223, 213, 252);
+    width: 30%;
+    height: 200px;
+}
+.banner-tres:hover {
+    /* background-image: url(../img/banner-helado.jpg); */
+    background-color: pink;
+    border: 2px solid  rgb(65, 23, 23);
+    
+}
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.navbarice {
+    /* background-image: linear-gradient(to bottom, rgba(213, 255, 151, 0.883)), hotpink; */
+    background-color: rgb(253, 209, 231);
+    height: 100%;
+    min-height: 3rem;
+    /*18px x 3rem = 54px*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    margin: 0 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(65, 23, 23);
+}
+#container {
+    margin: 0 30px;
+}
+#navbar ul {
+    margin: 0;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+}
+
+#navbar li a:hover{
+    background-color: rgb(65, 23, 23);
+    color: white;
+    padding: 10px 20px;
+}
+
+#navbar li{
+
+    list-style: none;
+    float: left;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+}
+
+.titulocentral{
+    margin: 100px;
+    color: hotpink;
+    text-align: center;
+}
+
+
+.bannercentral{
+    width: 100%;
+   
+    /* background-image: url(../img/bannercentral.jpg); */
+    /* margin: 0;
+    padding: 30px; */
+}
+
+.item-pd{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 50px 0 ;
+    width: 100%;
+    background-color: rgb(65, 23, 23);
+}
+
+.text-hola{
+    margin-top: -200px;
+    margin-bottom: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px 20px ;
+    text-align: center;
+}
+
+.text-banner{
+    background-color: rgb(65, 23, 23);
+    width: 30%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    top: -30px;
+    right: 20px;
+    position: relative;
+    margin: 50px;
+
+}
+
+img {
+    width: 100%;
+    /* height: 400px;  */
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+/* banner promo */
+.promo {
+    background-color: rgb(37, 14, 14);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 0 30px;
+}
+
+.tel {
+    font-size: 14px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redsocial {
+    margin-right: 20px;
+}
+
+/* slider -------------------------------------- */
+
+.container-slider{
+width: 90%;
+/* max-width: 900px; */
+margin:  auto;
+overflow: hidden;
+box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+position: relative;
+
+}
+
+.slider {
+height: 400px;
+/* width: 400%; */
+display: flex;
+margin-left: -100%;
+}
+
+.slider-section{
+width: 100%;
+}
+
+.slider-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.slider-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.slider-btn:hover{
+background: #fff;
+}
+
+.slider-btn-left{
+left: 10px;
+}
+
+.slider-btn-right{
+right: 10px;
+}
+
+/* nav bar responsive  */
+.toggle-button {
+    position: absolute;
+    top:  65px;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-links li a {
+    display: block;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+@media screen and (max-width: 800px) {
+.imgcentral-uno {
+    width: 400px;
+    height: 200px;
+}
+
+
+.imgcentral-dos {
+    width: 400px;
+}
+
+.imgcentral-tres {
+    width: 400px;
+}
+
+.slider {
+    height: 200px;
+    
+}
+
+#navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.toggle-button{
+    display: flex;
+}
+
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-links ul li {
+    text-align: center;
+}
+
+.navbar-links ul li a {
+    padding: .5rem 1rem;
+}
+
+.navbar-links.active{
+    display: flex;
+}
+
+.logo {
+    margin: .9rem;
+}
+
+}
